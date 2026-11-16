@@ -8,7 +8,10 @@ dependencies = [
     "jax",
     "scimba",
     "ipykernel",
+    "ipywidgets",
     "jupyter",
+    "gmsh",
+    "pygmsh",
 ]
 
 # This repository is not a python package: `uv sync` only creates the virtual

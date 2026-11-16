@@ -1,4 +1,7 @@
 jax
 scimba
 ipykernel
+ipywidgets
 jupyter
+gmsh
+pygmsh
