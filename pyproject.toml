@@ -1,0 +1,17 @@
+[project]
+name = "tp-scimba"
+version = "0.1.0"
+description = "Hands-on tutorial on PINNs with the ScimBa library (MEDIA, Toulon 2026)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jax",
+    "scimba",
+    "ipykernel",
+    "jupyter",
+]
+
+# This repository is not a python package: `uv sync` only creates the virtual
+# environment and installs the dependencies above (same list as requirements.txt).
+[tool.uv]
+package = false
